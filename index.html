@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>moikaraimedia News</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #34495e;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .main {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .article {
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin: 15px;
+      padding: 20px;
+      flex: 1 1 calc(33% - 40px);
+      box-sizing: border-box;
+    }
+
+    .article img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+
+    .article h3 {
+      margin: 10px 0;
+    }
+
+    .footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .article {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>moikaraimedia News</h1>
+    <p>Portal Berita Terpercaya dan Terkini</p>
+  </header>
+
+  <nav>
+    <a href="#">Beranda</a>
+    <a href="#">Nasional</a>
+    <a href="#">Internasional</a>
+    <a href="#">Teknologi</a>
+    <a href="#">Olahraga</a>
+    <a href="#">Hiburan</a>
+  </nav>
+
+  <div class="main">
+    <div class="article">
+      <img src="https://via.placeholder.com/300x200" alt="Berita 1">
+      <h3>Judul Berita Utama 1</h3>
+      <p>Ringkasan singkat berita utama ini memberikan gambaran umum mengenai peristiwa terkini...</p>
+      <a href="#">Baca selengkapnya</a>
+    </div>
+    <div class="article">
+      <img src="https://via.placeholder.com/300x200" alt="Berita 2">
+      <h3>Judul Berita Utama 2</h3>
+      <p>Berita terbaru dari dunia internasional, analisis mendalam dan fakta aktual...</p>
+      <a href="#">Baca selengkapnya</a>
+    </div>
+    <div class="article">
+      <img src="https://via.placeholder.com/300x200" alt="Berita 3">
+      <h3>Judul Berita Teknologi</h3>
+      <p>Update terbaru teknologi dan inovasi dari berbagai perusahaan ternama...</p>
+      <a href="#">Baca selengkapnya</a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    &copy; 2025 moikaraimedia News. Semua Hak Dilindungi.
+  </footer>
+
+</body>
+</html>
